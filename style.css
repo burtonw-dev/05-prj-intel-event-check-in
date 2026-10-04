@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -346,6 +347,22 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+.team-attendees {
+  margin: 6px 0 0;
+  padding-left: 20px;
+  color: #475569;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.team-attendees:empty {
+  display: none;
+}
+
+.team-attendees li + li {
+  margin-top: 3px;
 }
 
 /* Mobile responsive */
